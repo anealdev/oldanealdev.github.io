@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+header {
+	position: fixed;
+	background-color: none;
+	height: auto;
+	margin-left: 10px;
+}
+
+#header-inner {
+	max-width: 1200px;
+	margin: 0 auto;
+	position: sticky;
+	background-color: Black;
+	z-index: 10;
+}
+
+body {
+	background-color: White;
+	color: #67727A;
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+}
+h2 {
+	font-size: 4vmin;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 2%;
+}
+h3 {
+	font-size: 150%;
+	line-height: 155%;
+	padding: 5% 0;
+	font-weight: 400;
+	}
+
+p {
+	padding: 2%;
+	text-indent: 2%;
+	text-align: justify;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	margin-bottom: -4px;
+}
+
+/*----- Start Navigation ---*/
+nav {
+
+
+}
+#navicon {
+	display: inline-block;
+	float: left;
+	width: 28px;
+	height: 28px;
+	background: url(img/navicon.png) center;
+	margin-top: 4vmin;
+
+}
+#nav-menu{
+	display: none;
+	z-index: 1000;
+	position: absolute;
+	padding: 20px;
+	border: 1px solid #FFF;
+	border-radius: 5px;
+	background-color: rgb(117,213,240, 0.7);
+	text-align: center;
+	font-size: 2vmin;
+	list-style: none;
+	margin-top: 6vmin;
+}
+a {
+	text-decoration: none;
+	color: White;
+	font-size: 4vmin;
+	font-family: "Dosis", sans-serif;
+}
+
+a:hover {
+	color: Black;
+}
+
+/*---End Navigation--*/
+
+.banner {
+	width: 100%;
+	background-color: Black;
+}
+
+#banner-title {
+	text-align: center;
+  font-size:  5vmin;
+	color: White;
+	font-family: "Dosis", sans-serif;
+	padding-top: 25px;
+	padding-bottom: 5px;
+}
+
+.banner-inner{
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+#banner-image {
+	margin-top: 10px;
+	padding-top: 20px;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.one-fourth-wrapper{
+	width: 100%;
+	display: inline-block;
+}
+.one-fourth {
+	width: 25%;
+	float: left;
+	text-align: center;
+	color: White;
+	font-family: 'Dosis', sans-serif;
+	box-shadow:3px 3px 5px 3px White;
+}
+
+.inner-text{
+	display: none;
+	z-index: 1000;
+	position: absolute;
+	border-radius: 2px 0 2px 2px;
+	width: 21%;
+	height: 25%;
+	text-align: center;
+	margin: auto;
+	padding: 2%;
+}
+#html-text {
+	background: Black;
+	background-color: Black;
+	background: Black; /* Default color in case gradients not supported */
+	background: -webkit-linear-gradient(#6F8DCD, Black); /* Safari */
+	background: -o-linear-gradient(#6F8DCD, Black); /* Opera */
+	background: -moz-linear-gradient(#6F8DCD, Black); /* Firefox */
+	background: linear-gradient(#6F8DCD, Black); /* Default for all other browsers */
+}
+#html {
+	background-color: Black;// #155ed1;
+	}
+
+#html:hover{
+	background-color: #6F8DCD;
+	background: #6F8DCD; /* Default color in case gradients not supported */
+	background: -webkit-linear-gradient(Black, #6F8DCD)F); /* Safari */
+	background: -o-linear-gradient(Black, #6F8DCD)); /* Opera */
+	background: -moz-linear-gradient(Black, #6F8DCD)); /* Firefox */
+	background: linear-gradient(Black, #6F8DCD); /* Default for all other browsers */
+}
+
+#html:hover > .inner-text{
+	display: block;
+	background-color: #FF6750;
+}
+
+
+#reactjs-text {
+	background-color: #00dbdb;
+	background: #00dbdb; /* Default color in case gradients not supported */
+	background: -webkit-linear-gradient(#FF3300, #FF9966); /* Safari */
+	background: -o-linear-gradient(#FF3300, #FF9966); /* Opera */
+	background: -moz-linear-gradient(#FF3300, #FF9966); /* Firefox */
+	background: linear-gradient(#009688, Black); /* Default for all other browsers */
+}
+
+#reactjs{
+	background-color: Black;
+}
+
+#reactjs:hover{
+	background-color: #00dbdb;
+	background: #00dbdb; /* Default color in case gradients not supported */
+	background: -webkit-linear-gradient(#FF3300, #FF9966); /* Safari */
+	background: -o-linear-gradient(#FF3300, #FF9966); /* Opera */
+	background: -moz-linear-gradient(#FF3300, #FF9966); /* Firefox */
+	background: linear-gradient(Black, #009688); /* Default for all other browsers */
+}
+#reactjs:hover > .inner-text{
+	display: block;
+	background-color: #009688;
+}
+#node-text {
+	background-color: #00dbdb;
+	background: #00dbdb; /* Default color in case gradients not supported */
+	background: -webkit-linear-gradient(#FF3300, #FF9966); /* Safari */
+	background: -o-linear-gradient(#FF3300, #FF9966); /* Opera */
+	background: -moz-linear-gradient(#FF3300, #FF9966); /* Firefox */
+	background: linear-gradient(#4B2E83, Black); /* Default for all other browsers */
+}
+
+#node {
+	background-color:Black;
+}
+#node:hover{
+	background-color: #00dbdb;
+	background: #00dbdb; /* Default color in case gradients not supported */
+	background: -webkit-linear-gradient(#660099, #CC99FF); /* Safari */
+	background: -o-linear-gradient(#660099, #CC99FF); /* Opera */
+	background: -moz-linear-gradient(#660099, #CC99FF); /* Firefox */
+	background: linear-gradient(Black, #4B2E83); /* Default for all other browsers */
+}
+#node:hover > .inner-text{
+	display: block;
+	background-color: #a761d3;
+}
+#express-text {
+	background-color: #00dbdb;
+	background: #00dbdb; /* Default color in case gradients not supported */
+	background: -webkit-linear-gradient(#660099, #CC99FF); /* Safari */
+	background: -o-linear-gradient(#660099, #CC99FF); /* Opera */
+	background: -moz-linear-gradient(#660099, #CC99FF); /* Firefox */
+	background: linear-gradient(#FF3FBD, Black); /* Default for all other browsers */
+}
+#express {
+	background-color:Black;//
+}
+#express:hover{
+	background-color: #00dbdb;
+	background: #00dbdb; /* Default color in case gradients not supported */
+	background: -webkit-linear-gradient(#FF0066, #FFCCFF); /* Safari */
+	background: -o-linear-gradient(#FF0066, #FFCCFF); /* Opera */
+	background: -moz-linear-gradient(#FF0066, #FFCCFF); /* Firefox */
+	background: linear-gradient(Black, #ff3fbd ); /* Default for all other browsers */
+}
+#express:hover > .inner-text{
+	display: block;
+	background-color: #ff3fbd;
+}
+
+.inner-wrapper-container{
+	width: 100%;
+	display: inline-block;
+}
+.inner-wrapper {
+	float: left;
+	width: 100%;
+	background-color: White;
+	color: #595959;
+	height: auto;
+	font-family: "Dosis", sans-serif;
+	font-size: 4vmin;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+article {
+	float: left;
+	margin: 0 auto;
+	width: 50%;
+	height: 20%;
+	font-size: 4vmin;
+
+}
+
+#design {
+	margin-top: 1%;
+	text-align: center;
+}
+
+aside {
+	float: right;
+	margin: 0 auto;
+	width: 50%;
+	height: 20%
+	font-size: 4vmin;
+}
+
+#devices {
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+#jsstack {
+	text-align: center;
+	margin-top: 1%;
+
+}
+#stack {
+	background-color: White;
+	text-align: center;
+}
+
+.inner-wrapper-2 {
+	float: left;
+	width: 100%;
+	margin-bottom: 10%;
+}
+
+#github-tools {
+	width: 85%;
+	height: 85%;
+}
+
+/**---End one-third--**/
+/**---Portfolio Section--**/
+.section-wrapper {				/* encompass sections with this so contact section displays full height */
+	width: 100%;
+	display: inline-block;
+}
+#portfolio{
+	width: 75%;
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	font-size: 4vmin;
+	margin: 0 auto;
+	margin-top: 10%;
+	margin-bottom: 5%;
+	color: White;
+	background: Cyan; /* Default color in case gradients not supported */
+	background: -webkit-linear-gradient(right, #d4e1fd, Cyan, #d4e1fd); /* Safari */
+	background: -o-linear-gradient(right, #d4e1fd, Cyan, #d4e1fd); /* Opera */
+	background: -moz-linear-gradient(right, #d4e1fd, Cyan, #d4e1fd); /* Firefox */
+	background: linear-gradient(Black, Black); /* Default for all other browsers */
+}
+
+.tools-wrapper {
+	margin-top: 25%;
+	padding-top: 10%;
+	color: Black;
+}
+
+.one-third{
+	width: 32.2222222%;
+	float: left;
+	text-align: center;
+	color: Black;
+	background-color: White;
+	margin-top: 10vmin;
+	margin-bottom: 10px;
+	padding-right: 1px;
+}
+
+#atom-caption {
+	text-align: center;
+	margin: 0 auto;
+	font-family: "Dosis", sans-serif;
+	font-size: 3vmin;
+	padding-top: 15%;
+}
+
+/**---End Portfolio Section--**/
+/*------- Start Footer ---*/
+
+
+
+#contact-container{
+height: 100vh;
+margin: 0 auto;
+text-align: center;
+color: White;
+background: linear-gradient(to right, Black, Blue, Black); /* Default for all other browser */
+background: url(img/cyber-city.jpg) round;
+}
+
+#contact-container h1{
+	width: 100%;
+	background-color: Black;
+	padding: 2% 0 2% 0;
+}
+
+
+.contact-info {
+	text-align: center;
+	color: White;
+	background: black;
+	border: solid thin White;
+	font-size: 4vmin;
+	width: 50vmin;
+	margin: auto;
+	margin-top: 10%;
+	margin-bottom: 5%;
+	border: solid thick white;
+	padding: 2%;
+}
+.contact-info a{
+	text-decoration: none;
+	color: White;
+}
+
+.contact-info p{
+	text-align: center;
+	margin: auto;
+	padding-top: 5%;
+}
+/* Mobile custimization */
+@media screen and (max-width: 768px) {
+	h2{
+		font-size: 150%;
+	}
+	h3 {
+		font-size: 120%;
+	}
+	p {
+		font-size: 110%;
+	}
+	header{
+		position: fixed;
+		width: 100%;
+		height: 10%;
+	}
+	#header-inner{
+		position: sticky;
+		width: 100%;
+	}
+	#banner-image{
+		height: 100%;
+	}
+
+	nav-menu {
+		display: none;
+		z-index: 1000;
+		position: absolute;
+		padding-right: 40px;
+		width: 10%;
+		text-align: center;
+		margin: auto;
+		padding-left: 5px;
+	}
+	nav li {
+		text-align: center;
+		width: 100%;
+		font-weight: 900;
+	}
+
+	/*#navicon {
+		display: inline-block;
+		margin-top: -20px;
+	}
+
+	nav:hover ul {
+		display: block;
+
+	}
+
+*/
+	.one-fourth {
+		float: left;
+		width: 100%;
+	}
+	.one-fourth i {
+		font-size: 350%;
+		padding: 4% 0 1% 0;
+	}
+
+.inner-text {
+	width: 96%;
+	border: none;
+	text-align: center;
+	margin: auto;
+	height: 20%;
+}
+
+	article{
+		width: 100%;
+		height: auto;
+		text-align: center;
+
+	}
+	aside{
+		width:100%;
+		height: auto;
+	}
+	#devices {
+		width: 100%;
+	}
+.inner-wrapper-2{
+	background-color: White;
+	float: right;
+
+}
+
+	.one-third {
+		width: 100%;
+	}
+
+}
